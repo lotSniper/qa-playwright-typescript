@@ -20,6 +20,12 @@ The repository is used to practice and demonstrate practical UI test automation 
 - Form and user interaction testing
 - Playwright locators and assertions
 
+## CI
+
+Playwright tests are automatically executed on every push and pull request to the `main` branch using GitHub Actions.
+
+Test reports are uploaded as GitHub Actions artifacts after each run.
+
 ## Current Test Scenarios
 
 ### TodoMVC
